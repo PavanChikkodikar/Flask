@@ -1,3 +1,5 @@
 body {
     color:rgba(185, 40, 40, 0.667);
+    background-image: url("{{ url_for('static', filename='images/img.jpeg') }}");
+
 }
